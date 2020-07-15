@@ -1,0 +1,27 @@
+{
+  "name": "cy-visual-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:updateBase": "cypress run --env updateSnapshots=true",
+    "cy:runTestReporter": "cypress run --reporter cypress-image-snapshot/reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acorzog"
+  },
+  "keywords": [
+    "cypress",
+    "visual"
+  ],
+  "author": "andrea corzo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.10.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.0.5"
+  }
+}
