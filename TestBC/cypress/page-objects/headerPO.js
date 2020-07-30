@@ -1,4 +1,4 @@
-export class TodoPage {
+export class Region {
     globalLanguageButton() {
         cy.get('.navigation-desktop-country-selector-open-button').click()
     }

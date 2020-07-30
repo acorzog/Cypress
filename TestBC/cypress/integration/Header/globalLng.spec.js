@@ -1,24 +1,26 @@
-import {TodoPage} from "../../page-objects/todo-page"
-import data from "./example"
+import {Region} from "../../page-objects/headerPO"
+import data from "../../fixtures/example"
 
 describe('Validate Header Elements', () => {
-    const todoPage = new TodoPage()
+    const selectRegion = new Region()
 
     before(() => {
         cy.visit('/en')
     })
 
     it('should open the Global modal', () => {
-        todoPage.globalLanguageButton()
-        todoPage.countriesContainer()
+        selectRegion.globalLanguageButton()
+        selectRegion.countriesContainer()
     })
 
     it('should load countries', () => {
 
         for (let i = 0; i < data.continent.length; i++) {
-            todoPage.validateContinent(data.continent[i])
-            todoPage.numberOfContinents(data.countries[i])
+            selectRegion.validateContinent(data.continent[i])
+            selectRegion.numberOfContinents(data.countries[i])
         }    
-        
     })
+    it('should close the modal', () => {
+        cy.get('.basic-country-selector-close-button').click()
+    });
 })
