@@ -1,23 +1,19 @@
 import {TodoPage} from "../../page-objects/todo-page"
 
-const pages = ["https://www.merckgroup.com/en"]
-const sizes = [[1200, 800]]
-
 describe('Validate Header Elements', () => {
-
     const todoPage = new TodoPage()
 
-    sizes.forEach(size => {
-        pages.forEach(page => {
-            it(`Should match ${page} in resolution ${size}`, () => {
-                cy.setResolution(size)
-                cy.visit(page)
-            })
-        })
+    before(() => {
+        cy.visit('/en')
     })
-    it('should All Africa countries be present', () => {
+
+    it('should open the Global modal', () => {
         todoPage.globalLanguageButton()
         todoPage.countriesContainer()
+        
+    })
+
+    it('should make sure all countries are visible per Continent', () => {
         todoPage.validateContinent('africa')
         todoPage.numberOfContinents('51')
     })
@@ -53,3 +49,9 @@ describe('Validate Header Elements', () => {
         todoPage.numberOfContinents('2')
     })
 })
+
+
+
+
+
+
