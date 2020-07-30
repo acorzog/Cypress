@@ -1,5 +1,5 @@
 import {Region} from "../../page-objects/headerPO"
-import data from "../../fixtures/example"
+import data from "../../fixtures/regionCount"
 
 describe('Validate Header Elements', () => {
     const selectRegion = new Region()
