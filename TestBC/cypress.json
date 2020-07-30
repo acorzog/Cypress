@@ -1,0 +1,8 @@
+{
+        "viewportWidth": 1440,
+        "viewportHeight": 800,
+        "video": false,
+        "defaultCommandTimeout": 5000,
+        "pageLoadTimeout": 10000,
+        "waitForAnimations": true
+}
