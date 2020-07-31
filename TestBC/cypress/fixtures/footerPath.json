@@ -1,0 +1,55 @@
+[
+    {
+        "navSection": "Company",
+        "navSectionItem": "Company",
+        "navItemPath": "/en/company.html"
+    },
+    {
+        "id": "1",
+        "navSection": "Company",
+        "navSectionItem": "Responsibility",
+        "navItemPath": "/en/company/responsibility.html"
+    },
+    {
+        "id": "2",
+        "navSection": "Company",
+        "navSectionItem": "Partnering",
+        "navItemPath": "/en/company/partnering.html"
+    },
+    {
+        "id": "3",
+        "navSection": "Company",
+        "navSectionItem": "Media Center",
+        "navItemPath": "/en/company/press.html"
+    },
+    {
+        "id": "4",
+        "navSection": "Company",
+        "navSectionItem": "Stories",
+        "navItemPath": "/en/stories.html"
+    },
+    {
+        "id": "5",
+        "navSection": "Company",
+        "navSectionItem": "Contact Us",
+        "navItemPath": "/en/company/contact-us.html"
+    },
+    {
+        "id": "6",
+        "navSection": "Expertise",
+        "navSectionItem": "Vibrant Thoughts Blog",
+        "navItemPath": "/en/expertise/vibrant-thoughts.html"
+    },
+    {
+        "id": "7",
+        "navSection": "Expertise",
+        "navSectionItem": "Endocrinology",
+        "navItemPath": "/en/expertise/endocrinology.html"
+    },
+    {
+        "id": "8",
+        "navSection": "Expertise",
+        "navSectionItem": "General Medicine",
+        "navItemPath": "/en/expertise/general-medicine.html"
+    }
+]

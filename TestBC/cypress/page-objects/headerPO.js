@@ -16,3 +16,18 @@ export class Region {
     }
 }
 
+export class NavBar {
+    displayNavContnt(navItem) {
+        cy.get('.navigation-desktop-primary-list-item-link')
+        .contains(`${navItem}`)
+        .trigger('mouseover')
+    }
+
+    selecItemList(itemList) {
+        cy.get('.navigation-desktop-secondary-panel-list-item').contains(`${itemList}`).click()
+    }
+    
+    navPathValidation(navPath) {
+        cy.url().should('include', `${navPath}`)
+    }
+}

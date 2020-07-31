@@ -1,0 +1,107 @@
+[
+    {
+        "navSection": "Company",
+        "navSectionItem": "Company",
+        "navItemPath": "/en/company.html"
+    },
+    {
+        "navSection": "Company",
+        "navSectionItem": "Responsibility",
+        "navItemPath": "/en/company/responsibility.html"
+    },
+    {
+        "navSection": "Company",
+        "navSectionItem": "Partnering",
+        "navItemPath": "/en/company/partnering.html"
+    },
+    {
+        "navSection": "Company",
+        "navSectionItem": "Media Center",
+        "navItemPath": "/en/company/press.html"
+    },
+    {
+        "navSection": "Company",
+        "navSectionItem": "Stories",
+        "navItemPath": "/en/stories.html"
+    },
+    {
+        "navSection": "Company",
+        "navSectionItem": "Contact Us",
+        "navItemPath": "/en/company/contact-us.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Vibrant Thoughts Blog",
+        "navItemPath": "/en/expertise/vibrant-thoughts.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Endocrinology",
+        "navItemPath": "/en/expertise/endocrinology.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "General Medicine",
+        "navItemPath": "/en/expertise/general-medicine.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Fertility",
+        "navItemPath": "/en/expertise/fertility.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Neurology",
+        "navItemPath": "/en/expertise/neurology-and-immunology.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Oncology",
+        "navItemPath": "/en/expertise/oncology.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Clinical and Diagnostics",
+        "navItemPath": "/en/expertise/clinical-and-diagnostics.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Emerging Biotech",
+        "navItemPath": "/en/expertise/emerging-biotech.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Environmental Testing",
+        "navItemPath": "/en/expertise/environmental-testing.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Food and Beverage",
+        "navItemPath": "/en/expertise/food-and-beverages.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Government & Academic Research",
+        "navItemPath": "/en/expertise/government-and-academic-research.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Industrial",
+        "navItemPath": "/en/expertise/industrial.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Pharma and Biopharma Manufacturing",
+        "navItemPath": "/en/expertise/pharma-and-biopharma-manufacturing.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Pharmaceutical Research",
+        "navItemPath": "/en/expertise/pharmaceutical-research.html"
+    },
+    {
+        "navSection": "Expertise",
+        "navSectionItem": "Pharma Quality Control",
+        "navItemPath": "/en/expertise/pharma-quality-control.html"
+    }
+]
